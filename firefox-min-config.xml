@@ -116,7 +116,7 @@
 		<fetcher
 		class="com.norconex.collector.http.fetch.impl.webdriver.WebDriverHttpFetcher">
 		<browser>firefox</browser>
-		<driverPath>/norconex/collector/webdrivers/geckodriver</driverPath>
+		<driverPath>./webdrivers/geckodriver</driverPath>
 		<referenceFilters>
 		<filter
 			class="com.norconex.collector.core.filter.impl.ReferenceFilter"
